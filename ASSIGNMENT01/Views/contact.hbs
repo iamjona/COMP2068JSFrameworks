@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Me</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h1>Contact Me</h1>
+        <p>If you have any questions or would like to get in touch, please use the form below or reach out via social media.</p>
+
+        <!-- Contact Form -->
+        <form action="/submit" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+
+        <!-- Social Media Links -->
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/yourname" target="_blank">LinkedIn</a>
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <!-- Add more social media links as needed -->
+        </div>
+
+        <!-- Optional: Map or Location Information -->
+        <div class="location">
+            <h2>My Location</h2>
+            <p>Your Address, City, Country</p>
+            <!-- Add a map or specific location details if desired -->
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,16 @@
+body {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  a {
+    color: #0077cc;
+  }
+  h1, h2, h3 {
+    font-family: 'Your Font', sans-serif;
+    font-weight: bold;
+  }
+  p {
+    font-family: 'Another Font', serif;
+  }
+    
+  
